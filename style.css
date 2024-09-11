@@ -1,0 +1,344 @@
+/* font-family: "Open Sans", sans-serif; */
+
+
+body {
+    background-color: #3d4c5c;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-wrapper {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.header-wrapper h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.header-wrapper img {
+    width: 80px;
+}
+
+.content-wrapper {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+#coffee-pic1 {
+    background-image: url(chilling-cafe-01.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+
+#coffee-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+#Special-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+#Special-item h1 {
+    display: flex;
+    color: rgb(136, 45, 12);
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#talk-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+#talk-menu h1 {
+    display: flex;
+    color: rgb(136, 45, 12);
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#coffee-menu h1 {
+    display: flex;
+    color: rgb(136, 45, 12);
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#coffee-menu table  {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-collapse: collapse;
+}
+
+#coffee-menu table th {
+    color: black;
+    background-color: #c4cdd6;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 350;
+    text-align: center;
+}
+
+#coffee-menu table tr,td {
+    font-size: 1.5rem;
+    font-weight: 350;
+    padding: 15px;
+    text-align: center;
+    color: #756857;
+}
+
+.coffe-items {
+    text-align: left;
+}
+
+#coffe-items1 {
+    background-color: #e5e8ed;
+}
+
+.image-wrapper {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 20px;
+    flex-basis: 320px;  
+}
+
+.text h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.text h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+hr {
+    width: 50%;
+    height: 4px;
+    background-color: #8f8c96;
+    margin-left: 25%;
+    
+}
+
+.content-wrapper-about {
+    display: flex;
+    height: 480px;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.content-wrapper-about h1 {
+    padding: 10px;
+}
+
+.content-wrapper-about p {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: left;
+    color: #796f63;
+}
+
+#para {
+    margin-right: 55px;
+}
+
+.content-wrapper-talk {
+    display: flex;
+    height: 350px;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.content-wrapper-talk p {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #796f63;
+    text-indent: 5px
+}
+
+.content-wrapper-talk a {
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedia-icon {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.socialmedia-icon img {
+    width: 50px;
+    margin: 10px;
+}
+
+footer h2 {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    body {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .header-wrapper {
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 40px;
+    }
+    
+    .header-wrapper h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .header-wrapper img {
+        width: 60px;
+    }
+
+    .content-wrapper {
+        height: 2000px;
+        width: 100%;
+    }
+
+    #coffee-pic1 {
+        width: 380px;
+        height: 350px;
+    }
+    
+    #coffee-menu {
+        width: 380px;
+        height: 750px;
+    }
+    
+    #coffee-menu table th {
+        font-size: 1.2rem;
+    }
+    
+    #coffee-menu table tr,td {
+        font-size: 1.2rem;
+    }
+
+    #Special-item {
+        width: 380px;
+        height: 1650px;
+    }
+    
+    .image-wrapper {
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    hr {
+        width: 50%;
+    }
+    
+    .content-wrapper-about {
+        display: flex;
+        height: 100px;
+        width: 380px;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .content-wrapper-about h1 {
+        padding: 10px;
+    }
+    
+    .content-wrapper-about p {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        text-align: left;
+        color: #796f63;
+    }
+
+    .content-wrapper-talk hr{
+        margin-top: 20px;
+    }
+    
+    #para {
+        margin-right: 2px;
+    }
+
+    #talk-menu {
+        height: 450px;
+        width: 380px;
+    }
+
+    .content-wrapper-talk p {
+        display: inline;
+    }
+    
+    footer h2 {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
