@@ -159,6 +159,11 @@ hr {
     
 }
 
+.content-wrapper-talk hr {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
 .content-wrapper-about {
     display: flex;
     height: 480px;
