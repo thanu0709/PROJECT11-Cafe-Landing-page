@@ -28,7 +28,7 @@ body {
 .content-wrapper {
     display: flex;
     height: 700px;
-    width: 1200px;
+    width: 900px;
     margin: auto;
     justify-content: center;
 }
@@ -167,7 +167,7 @@ hr {
 .content-wrapper-about {
     display: flex;
     height: 480px;
-    width: 1200px;
+    width: 900px;
     margin: auto;
     justify-content: center;
 }
@@ -193,7 +193,7 @@ hr {
 .content-wrapper-talk {
     display: flex;
     height: 350px;
-    width: 1200px;
+    width: 900px;
     margin: auto;
     justify-content: center;
 }
@@ -272,6 +272,10 @@ footer h2 {
     #coffee-menu {
         width: 380px;
         height: 750px;
+    }
+
+    #coffee-menu table  {
+        margin-left: 10px;
     }
     
     #coffee-menu table th {
